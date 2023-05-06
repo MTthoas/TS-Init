@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node dist/app.js",
-    "prestart": "npm run build",
-    "build": "tsc"
+    "start": "node dist/museum.class.js",
+    "build": "tsc",
+    "buildANDrun" : "tsc && node dist/app.js"
   },
   "keywords": [],
   "author": "",
